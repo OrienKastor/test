@@ -1,0 +1,25 @@
+from https://askubuntu.com/questions/501910/how-to-text-to-speech-output-using-command-line
+
+In order of descending popularity:
+
+    say converts text to audible speech using the GNUstep speech engine.
+
+    sudo apt-get install gnustep-gui-runtime
+    say "hello"
+
+    festival General multi-lingual speech synthesis system.
+
+    sudo apt-get install festival
+    echo "hello" | festival --tts
+
+    spd-say sends text-to-speech output request to speech-dispatcher
+
+    sudo apt-get install speech-dispatcher
+    spd-say "hello"
+
+    espeak is a multi-lingual software speech synthesizer.
+
+    sudo apt-get install espeak
+    espeak "hello"
+
+

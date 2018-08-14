@@ -1,0 +1,8 @@
+https://msdn.microsoft.com/en-us/windows/desktop/ee663266.aspx
+https://msdn.microsoft.com/commandline/wsl/install_guide
+https://msdn.microsoft.com/en-us/library/windows/desktop/dn554295(v=vs.85).aspx
+https://msdn.microsoft.com/library/windows/desktop/ff381399(v=vs.85).aspx
+https://msdn.microsoft.com/en-us/library/windows/desktop/ff485845(v=vs.85).aspx
+https://msdn.microsoft.com/library/hh425099(v=vs.110).aspx
+
+use c#

@@ -1,0 +1,38 @@
+#include<iostream>
+#include<fstream>
+#include "C:\Users\gam\Downloads\gnuplot-cpp\gnuplot-cpp\gnuplot_i.hpp"
+#include<cstdlib>
+#include<cstring>
+#include<cmath>
+#include<windows.h>
+
+using std::cout;
+using std::endl;
+
+using namespace std;
+
+using namespace std;
+int main(){
+	cout << "*** Starting plotting ***" <<endl<<endl;
+	
+
+	Gnuplot g1("lines");
+
+	/*
+
+	gp << "plot '-' with lines title 'ez'\n";
+	gp.set_title("title");
+	gp.plot_equation("sin(x)","sine");
+	gp.showonscreen();
+	*/
+
+	g1.set_title("slopes\\nNew Line");
+	g1.plot_slope(1.0,0.0,"y=x");
+	g1.showonscreen();
+
+	cin.get();
+
+	cout << "*** Ending plotting ***"<<endl<<endl;
+
+	return 0;
+}

@@ -1,0 +1,27 @@
+https://www.quora.com/How-can-I-learn-hacking-in-2-weeks
+
+
+
+
+
+
+So, usually a hacker is either 1) a self taught genius with an IQ of 140+, 2) A student from a computer related bachelor who went the masters or PhD route (min 7 years studying) with a research focus on computer security, or 3) an incredibly experienced IT guy who has been managing servers and doing web related stuff for at least 5 years.
+
+Do you fit in any of the descriptions above? if not, let’s say you’re a genius at self-learning. You need to be a great coder with lots of creativity to be able to attack a system. This is what you have to do from the ground up:
+
+    DAY 1: Uninstall windows or mac and make your PC linux only. You hack using linux (or a mac, but you use the console anyways). Learn Linux and master the console.
+    DAY 2: Read at least one full book (300 pages) on C/C++ coding to learn fundamentals of programming and memory management (no, it can’t be a different language, you need to learn how to deal with memory).
+    DAY 3: Read at least 1 full book (300 pages) on Networking, so that you know by memory the stack you’re dealing with, and all the protocols involved. You should be able to fake packets if you need to.
+    DAY 4: Read at least one full book (400 pages) on popular web technologies: PHP, HTML, CSS and simple JavaScript. Web technologies are core for any hacker since they hack trough the web.
+    DAY 5: Read at least one full book on databases (300 pages). Your primary target is a database, so you need to be an expert on them (how will you hack them if you don’t know them?)
+    DAY 6: Read at least one full book on the MVC framework (200 pages). You need to understand typical architectural patterns when you’re trying to guess how code is structured.
+    DAY 7: Get an account on an online learning site like Lynda or similar, with professional training videos. You need to know how PHP (or ASP or JSP or whatever), JavaScript and general backend CMSs and frameworks work. Use this video material to learn at least 5 frontend and backend frameworks (jQuery, Angular, NodeJS, RubyOnRails, Django, or whatever accomodates to your target; for example if you want to hack Wordpress blogs… learn wordpress). Spend at least 80 hours there (4 days without sleeping more than 4 hours).
+    DAY 11: By now, you can already “hack” weak systems by reading a few tutorials on SQL injection and other techniques that shouldn’t work in this era (but work anyways). Now we can start to learn to hack. Read the following:
+    Hacking: The Art of Exploitation, 2nd Edition: Jon Erickson: 0689145714418: Amazon.com: Books
+    DAY 12: The Basics of Hacking and Penetration Testing: Ethical Hacking and Penetration Testing Made Easy (Syngress Basics Series): Patrick Engebretson: 9781597496551: Amazon.com: Books
+    DAY 13: Metasploit: The Penetration Tester's Guide: David Kennedy, Jim O'Gorman, Devon Kearns, Mati Aharoni: 8580001058368: Amazon.com: Books
+    DAY 14: Amazon.com: BackTrack 5 Wireless Penetration Testing Beginner's Guide (9781849515580): Vivek Ramachandran: Books
+
+There! You now have the fundamentals of hacking in 2 weeks. A normal person would do each of the days of your training in 3 to 6 months (not the reading, but the understanding and practical learning, to a degree where they are proficient) but since you’re a genius at learning, each will only take you 1 day and you don’t even need experience with each technology to understand it.
+
+Congrats, and welcome to the hacker community! It’s an honor to have you… Keep at it for 1 full month and you will probably become one of the best hackers in the country!

@@ -1,0 +1,4 @@
+use mingw to compile on ubuntu for windows: 
+i686-w64-mingw32-gcc *cpp file* -o *executable file* 
+
+run the file with wine: wine *executable file*

@@ -1,0 +1,14 @@
+mkfifo in out
+myprogram <in >out &
+echo "First line" >in
+read -r reply <out
+
+mkfifo in out
+myprogram <in >out &
+exec {infd}>in {outfd}<out
+echo "First line" >&$infd
+read -r reply <&$outfd
+
+coproc foo { myprogram; }
+echo "First line" >&${foo[1]}
+read -r reply <&${foo[0]}

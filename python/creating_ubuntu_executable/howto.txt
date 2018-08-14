@@ -1,0 +1,4 @@
+how to compile to an ubuntu executable from a python file (use pyinstaller: sudo pip install PyInstaller):
+pyinstaller --onefile *script name*
+
+the file is then put in the folder: dist under the same name as the script

@@ -1,0 +1,2 @@
+to compile for the opengl:
+g++ first_opengl.cpp -lGL -lGLU -lglut

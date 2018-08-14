@@ -1,0 +1,9 @@
+function sum(r,c)
+return Expr(:call,:+,c,r)
+end
+
+function print(r)
+return println("Printing: ",$r)
+end
+
+println(eval(sum(3,4)))

@@ -1,0 +1,5 @@
+Idea for making a program that converts one language to another:
+
+Idea 1:
+The program should run the first language and save all of the information that is called up when its is executed. None of the particular outputs or anything just the information the system uses when running the program.
+Interpret this information and encode it into the other language (including librarires, functions, classes, values, etc.)

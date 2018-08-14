@@ -1,0 +1,11 @@
+#touch myprogram
+
+echo 1 | myprogram
+
+(echo "First line"
+ echo "Second line") | myprogram
+
+myprogram <<EOF
+First line
+Second line
+EOF

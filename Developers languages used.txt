@@ -1,0 +1,3 @@
+Statically typed languages (what are used by most developers in industry):
+
+https://en.wikipedia.org/wiki/Category:Statically_typed_programming_languages

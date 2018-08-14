@@ -1,0 +1,123 @@
+start with: #!/bin/bash
+
+$0: name of the bash script
+$1-9: respective arguments taken in the command line
+$#: number of command line arguments passed in
+$@: all the arguments supplied to the script
+$?: exit status of the most recent process
+$$: process ID of the current script
+$USER: username of the user running the script
+$HOSTNAME: name of machine running the script
+$SECONDS: the number of seconds since the script was started
+$RANDOM: random number generated
+$LINENO: returns the current line number in the bash script
+
+print to screen: echo ....
+		print variable to screen: $variable
+
+variables: *variable_name*=*variable_value*
+	ex. myVar=Hello
+	ex. var1=/etc
+	ex. a=1
+	ex. str='hello $x' -> has the actual value of: hello $x
+	ex. str2="hello $x' -> has the actual value of: hello *x*
+to make something into a variable: var=$( ls ) , for example, works. Converts to a variable
+
+operations on variables:
+
+sum: $((a+b)) or $[a+b]
+
+write over a varible: echo a > b -> write the value of b over a
+
+write to file: echo "into file" > file.txt
+
+
+
+--------------------------------------------------
+
+logic statements:
+
+
+test *test* -> gives the value of 0/1 respectively to ?
+
+
+
+
+
+if [ *test* ]
+then
+*operation to perform*
+elif [ *test* ]
+then
+*operation to perform*
+else
+*operation to perform*
+fi
+
+or
+
+if [ *test* ]; then *operation to perform*; *second operation*; *third operation*; fi
+
+
+operators:      lt: less than
+	   	gt: greater than
+	   	eq: equal to
+	   	=: equivalent strings
+		!=: not equivalent strings
+		!: false expression
+		-n: length of string > 0
+		-z: length of string = 0
+		-d: exists and is directory
+		-e: exists
+		-r: exists and read permission
+		-s: file exists and is not empty
+		-w: file exists and write permission
+		-x: file exists and execute permission
+
+
+
+--------------------------------------------------
+
+loops:
+
+for: for((i=1;i<=7;i++)); do
+	echo i=$i
+     done
+
+
+
+--------------------------------------------------
+
+reading/writing files
+
+
+writing data to a file:
+
+echo "a=$a" >> *file* -> appends a=*value of a* to *file*	
+
+
+
+writing files and text input to file:
+
+cat > *file* -> enter what is desired to be entered into the file then press ctrl+d
+
+cat *file1* > *file2* -> puts the data in *file1* into *file2*
+
+cat *file1* *file2* -> copy the files
+
+cat > *file* -> create a file
+
+cat *file1* >> *file2* -> appends *file2* with the contents of *file1*
+
+cat - - >> *file* -> append *file* with two entries from two entries followed each by ctrl+d
+
+
+
+
+
+
+
+--------------------------------------------------
+
+
+anything to run in the bash terminal works in bash script
